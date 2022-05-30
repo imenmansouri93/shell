@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #5. 4 bad luck, 8 is your chance
 icount=1
-a=10;
+a=11;
 while [ "$icount" -lt "$a" ]
 do	
 	if [[ $icount -eq 4 ]]
