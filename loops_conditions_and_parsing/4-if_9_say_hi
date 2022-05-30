@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Until Best School loop
 i=1
-while :
+while [	$i -le 10] 
 do
 	if [$i == 9]; then 
 		break
