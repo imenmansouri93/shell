@@ -3,9 +3,10 @@
 icounter = 0;
   while [ $icounter -lt 10 ]
   do
-	  if [ $icounter = 9 ] then
+	  if [ "$icounter" -eq 9 ] then
 		  echo "Best School" \n "hi"
-	  fi
+	  else
 	  echo "Best School"
+	  fi
  icounter=icounter+1
 done
