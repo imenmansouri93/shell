@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #Until Best School 
 icounter = 0;
-  while [$icounter -lt 10]
+  while [ $icounter -lt 10 ]
   do
-	  if [$icounter = 9] then
+	  if [ $icounter = 9 ] then
 		  echo "Best School" \n "hi"
 	  fi
 	  echo "Best School"
