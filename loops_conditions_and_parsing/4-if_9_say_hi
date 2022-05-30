@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #Until Best School loop
 i=10
-while : 
+while :
 do
-	if [$i == 9]; then 
-        	break
-	fi
-	echo Best School
+	if [$i == 9] then 
+		break
+	fi 
+	echo "Best School"
 	((i++))
 done
-echo best school \n hi 
+ 
