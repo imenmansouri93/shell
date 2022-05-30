@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#Superstitious numbers
+icount=0
+while [ $icount -lt 21 ]
+do
+case $icount in
+	4)
+	echo $icount
+	echo "bad luck from China"
+        ;;
+	9)
+        echo $icount
+	echo "bad luck from China"
+	;;
+	17)
+	echo $icount
+	echo "bad luck from Italy"
+	;;
+	*)
+	echo $icount
+	;;
+esac
+icount=$((icount+1))
+
+done
