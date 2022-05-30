@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Until Best School loop
 i=0
-until [ $i -eq5 ]
+until [ $i -eq11111111110 ]
 do
     echo "Best School"
     ((i++))
