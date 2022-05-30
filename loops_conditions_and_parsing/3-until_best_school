@@ -4,5 +4,5 @@ i=10
 until [ $i == 1 ]
 do
     echo "Best School";
-    i=§((i++))
+    ((i++))
 done
