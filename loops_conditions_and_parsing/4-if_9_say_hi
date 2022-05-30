@@ -2,12 +2,12 @@
 #Until Best School 
 icounter=0;
 a=10
-  while [ "$icounter" -lt "$a" ]
-  do
-	  if [ "$icounter" -eq 9 ] then
-		  echo "Best School" \n "hi"
-	  else
-	  echo "Best School"
-	  fi
- icounter+=1
+while [ "$icounter" -lt "$a" ]
+do
+     	if [ "$icounter" -eq 9 ]
+       	then
+	      printf "Best School\nHi\n"
+	fi
+        echo "Best School"
+	icounter=$((icounter+1))
 done
