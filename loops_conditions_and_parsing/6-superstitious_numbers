@@ -10,7 +10,7 @@ case $icount in
         ;;
 	9)
         echo $icount
-	echo "bad luck from China"
+	echo "bad luck from Japan"
 	;;
 	17)
 	echo $icount
