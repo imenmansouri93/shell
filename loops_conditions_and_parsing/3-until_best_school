@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Until Best School loop
-i=0
-until [ $i -eq10 ]
+i=10
+until [ $i == 1 ]
 do
-    echo "Best School"
-    ((i++))
+    echo "Best School";
+    i=§((i++))
 done
