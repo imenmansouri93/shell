@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Superstitious numbers
-icount=0
+icount=1
 while [ $icount -lt 21 ]
 do
 case $icount in
