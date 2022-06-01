@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Read and cut
+while IFS= read -r line; do
+
+    echo $username, $userid,  $homedir, $line  | cut -d"," -f4-5 ;
+
+done < $"/etc/passwd"
