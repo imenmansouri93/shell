@@ -1,19 +1,17 @@
 #!/usr/bin/env bash
 #10. FizzBuzz
 num=1
- while [ $num -lt 101 ]
+for  num in {1..100}
 do 
 	if [ $((num%15)) = 0 ] 
 then
-	echo "$num"
 	echo "FizzBuzz"
 elif [ $((num%3)) = 0 ]
 then
-	echo "$num"
 	echo "Fizz"
 elif [ $((num%5)) = 0 ]
 then
-	echo "$num"
+
 	echo "Buzz" 
 else
 	echo "$num"
