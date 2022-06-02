@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #5. Don't stop me now!
-kill $(ps aux | grep 4-to_infinity_and_beyond | grep -v grep )
+kill $(ps aux | grep 4-to_infinity_and_beyond )
