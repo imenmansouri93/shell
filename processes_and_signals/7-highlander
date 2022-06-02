@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #7. Highlander
-trap "echo I am invincible!!!; exit" SIGINT
+trap "echo I am invincible!!!; exit" SIGTERM
 while :
 do
 	        echo "To infinity and beyond"
 		        sleep 2
         	
-trap 'I am invincible!!!' SIGTERM
 done
